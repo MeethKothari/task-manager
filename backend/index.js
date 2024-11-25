@@ -8,8 +8,10 @@ dotenv.config();
 
 
 
-const port = process.env.PORT;
-const db_uri = process.env.DB_URI;
+// const port = process.env.PORT;
+// const db_uri = process.env.DB_URI;
+const port = 8082;
+const db_uri = "mongodb+srv://meethukothari:ylr06RLtt0QpISnY@task-manager.b08sz.mongodb.net/task-manager?retryWrites=true&w=majority&appName=task-manager";
 
 
 // mongoDB connection using mongoose
