@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "build": "echo 'No build step needed for backend'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A backend for the task-manager app.",
   "dependencies": {
     "@mui/icons-material": "^6.1.8",
     "cors": "^2.8.5",
@@ -17,10 +18,12 @@
     "express": "^4.21.1",
     "mongo": "^0.1.0",
     "mongoose": "^8.8.2",
-    "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.1.7"
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
